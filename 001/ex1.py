@@ -3,11 +3,10 @@
 # practicepython.org exercise 1:
 # get name and age, then tell user when they will be 100
 
-import sys
+#import sys
 from datetime import date
 
 
-# TODO - doctests
 def get_num(prompt='Number? '):
     """helper function to prompt for a number"""
     _num = 0
