@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
-# practicepython.org exercise 3:
-# given a list, print elements that are less than 5.
+# practicepython.org exercise 4:
+# given a number, print all divisors.
 
 
 def get_num(prompt='Number? '):
