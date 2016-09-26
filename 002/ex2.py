@@ -3,6 +3,7 @@
 # practicepython.org exercise 2:
 # ask for number, and respond differently based on even/odd
 
+
 def get_num(prompt='Number? '):
     """helper function to prompt for a number"""
     _num = 0
@@ -15,6 +16,7 @@ def get_num(prompt='Number? '):
         else:
             break
     return _num
+
 
 number = get_num('Enter a number: ')
 

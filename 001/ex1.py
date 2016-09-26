@@ -3,7 +3,6 @@
 # practicepython.org exercise 1:
 # get name and age, then tell user when they will be 100
 
-#import sys
 from datetime import date
 
 
@@ -19,6 +18,7 @@ def get_num(prompt='Number? '):
         else:
             break
     return _num
+
 
 name = input('\nWhat is your name? ')
 age = get_num('\nWhat is your age? ')
