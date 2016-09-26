@@ -3,10 +3,6 @@
 # practicepython.org exercise 2:
 # ask for number, and respond differently based on even/odd
 
-import sys
-from datetime import date
-
-
 def get_num(prompt='Number? '):
     """helper function to prompt for a number"""
     _num = 0
