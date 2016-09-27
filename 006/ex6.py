@@ -3,7 +3,6 @@
 # practicepython.org exercise 6:
 # Ask for string and determine if it is a palindrome.
 
-
 test_str = input('Enter string to test: ')
 
 rev_str = test_str[::-1]
