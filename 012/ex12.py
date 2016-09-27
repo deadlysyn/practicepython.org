@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
-# practicepython.org exercise 10:
-# redo exercise 5 a bit differently
+# practicepython.org exercise 12:
+# given a list, return list of first and last elements.
 
 
 def fl_list(list):
