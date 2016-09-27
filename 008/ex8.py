@@ -29,10 +29,14 @@ while True:
     elif p1 not in choices or p2 not in choices:
         print('What was that?  Try again.')
     elif p1 == 'rock' and p2 == 'scissors':
+        print('Player1: {0}  Player2: {1}'.format(p1, p2))
         print('Player 1 scores!')
     elif p1 == 'scissors' and p2 == 'paper':
+        print('Player1: {0}  Player2: {1}'.format(p1, p2))
         print('Player 1 scores!')
     elif p1 == 'paper' and p2 == 'rock':
+        print('Player1: {0}  Player2: {1}'.format(p1, p2))
         print('Player 1 scores!')
     else:
+        print('Player1: {0}  Player2: {1}'.format(p1, p2))
         print('Player 2 scores!')
