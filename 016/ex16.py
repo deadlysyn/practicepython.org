@@ -32,7 +32,7 @@ def get_num(*, prompt='Number? '):
     return num
 
 
-# random.sample can raise ValueError if sample (password
+# TODO: random.sample can raise ValueError if sample (password
 # length) is longer than population.
 def gen_pass(*, pw_length=10, use_nums=True, use_special=True,
              no_dupes=False, no_ambiguous=True):
