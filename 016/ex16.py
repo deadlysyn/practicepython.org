@@ -3,6 +3,7 @@
 # practicepython.org exercise 16:
 # password generator
 
+
 import random
 
 
@@ -58,7 +59,7 @@ def gen_pass(*, pw_length=10, use_nums=True, use_special=True,
 
 
 # The exercise calls this the "simple" password, but given
-# the right list of words a "passphrase" could both be
+# the right list of words a "passphrase" could be both
 # easier to remember and have more entropy than shorter
 # "random" passwords!
 def gen_simple_pass(*, num_words=3):
